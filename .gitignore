@@ -1,0 +1,25 @@
+# OSX
+*.DS_Store
+._*
+
+# Wakanda studio preferences
+*.waPreferences
+
+# Wakanda logs
+*.waLog
+*/Logs
+studio_log*
+
+# Wakanda code analyses 
+*.waSym
+*.waSymData
+
+# Wakanda Data Index & recovery infos
+*.waIndx
+*.Match
+
+# Wakanda User & Group cache
+*.cacheUAG
+
+# Wakanda project & solution file backup
+*.waBackup

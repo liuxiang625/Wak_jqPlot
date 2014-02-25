@@ -1,0 +1,578 @@
+2014-02-12 15:33:41 [com.wakanda-software.CustomWidget] INFO - Users and groups directory opened
+2014-02-12 15:33:41 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Datastore opened
+2014-02-12 15:33:41 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project opened
+2014-02-12 15:33:41 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project opened
+2014-02-12 15:33:41 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution opened
+2014-02-12 15:33:41 [com.wakanda-software] INFO - Starts "CustomWidget" solution
+2014-02-12 15:33:41 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - mode :  release
+2014-02-12 15:33:41 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-12 15:33:41 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-12 15:33:41 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-12 15:33:41 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - added package definition to storage
+2014-02-12 15:33:41 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-12 15:33:41 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - <buildInit()
+2014-02-12 15:33:41 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":["<buildInit()"]}
+2014-02-12 15:33:41 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - HTTP Server started
+2014-02-12 15:33:41 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project started
+2014-02-12 15:33:41 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - mode :  release
+2014-02-12 15:33:41 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-12 15:33:41 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-12 15:33:41 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-12 15:33:42 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - added package definition to storage
+2014-02-12 15:33:42 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-12 15:33:42 [com.wakanda-software.CustomWidget.CustomWidget] INFO - <buildInit()
+2014-02-12 15:33:42 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":["<buildInit()"]}
+2014-02-12 15:33:42 [com.wakanda-software.CustomWidget.CustomWidget] INFO - HTTP Server started
+2014-02-12 15:33:42 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project started
+2014-02-12 15:33:42 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Executes the bootstrap file(s)
+2014-02-12 15:33:42 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Bootstrap file(s) executed
+2014-02-12 15:33:42 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Executes the bootstrap file(s)
+2014-02-12 15:33:42 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Bootstrap file(s) executed
+2014-02-12 15:33:42 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution started
+2014-02-12 15:33:42 [com.wakanda-software] INFO - "CustomWidget" solution has been successfully opened for running (duration: 396 ms)
+2014-02-12 15:33:42 [com.wakanda-software.supervisor] INFO - solution opened
+2014-02-12 16:26:45 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Datastore model reloaded
+2014-02-12 17:49:33 [com.wakanda-software] INFO - Stops "CustomWidget" solution
+2014-02-12 17:49:34 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project stopped
+2014-02-12 17:49:35 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project stopped
+2014-02-12 17:49:35 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution stopped
+2014-02-12 17:49:35 [com.wakanda-software] INFO - Closes "CustomWidget" solution
+2014-02-12 17:49:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project closed
+2014-02-12 17:49:36 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project closed
+2014-02-12 17:49:36 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution closed
+2014-02-13 09:40:04 [com.wakanda-software.supervisor] INFO - solution closed
+2014-02-13 09:40:04 [com.wakanda-software] INFO - Opens the solution "Mactintosh HD:Users:xliu:Documents:Wakanda:CustomWidget:CustomWidget Solution:CustomWidget.waSolution" for running
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget] INFO - Users and groups directory opened
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Datastore opened
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project opened
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project opened
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution opened
+2014-02-13 09:40:04 [com.wakanda-software] INFO - Starts "CustomWidget" solution
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - mode :  release
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - added package definition to storage
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - <buildInit()
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":["<buildInit()"]}
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - HTTP Server started
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project started
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - mode :  release
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - added package definition to storage
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.CustomWidget] INFO - <buildInit()
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":["<buildInit()"]}
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.CustomWidget] INFO - HTTP Server started
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project started
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Executes the bootstrap file(s)
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Bootstrap file(s) executed
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Executes the bootstrap file(s)
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Bootstrap file(s) executed
+2014-02-13 09:40:04 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution started
+2014-02-13 09:40:04 [com.wakanda-software] INFO - "CustomWidget" solution has been successfully opened for running (duration: 406 ms)
+2014-02-13 09:40:04 [com.wakanda-software.supervisor] INFO - solution opened
+2014-02-13 10:25:49 [com.wakanda-software.xbox] ERROR - [1] Network is down (ENETDOWN)., task #17923
+2014-02-13 10:25:49 [com.wakanda-software.srvr] ERROR - [54] Socket write failed, task #17923
+2014-02-13 15:31:34 [com.wakanda-software] INFO - Stops "CustomWidget" solution
+2014-02-13 15:31:35 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project stopped
+2014-02-13 15:31:36 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project stopped
+2014-02-13 15:31:36 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution stopped
+2014-02-13 15:31:36 [com.wakanda-software] INFO - Closes "CustomWidget" solution
+2014-02-13 15:31:37 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project closed
+2014-02-13 15:31:37 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project closed
+2014-02-13 15:31:37 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution closed
+2014-02-13 15:34:25 [com.wakanda-software.supervisor] INFO - solution closed
+2014-02-13 15:34:25 [com.wakanda-software] INFO - Opens the solution "Mactintosh HD:Users:xliu:Documents:Wakanda:CustomWidget:CustomWidget Solution:CustomWidget.waSolution" for running
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget] INFO - Users and groups directory opened
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Datastore opened
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project opened
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project opened
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution opened
+2014-02-13 15:34:25 [com.wakanda-software] INFO - Starts "CustomWidget" solution
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - mode :  release
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - added package definition to storage
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - <buildInit()
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":["<buildInit()"]}
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - HTTP Server started
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project started
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - mode :  release
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - added package definition to storage
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.CustomWidget] INFO - <buildInit()
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":["<buildInit()"]}
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.CustomWidget] INFO - HTTP Server started
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project started
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Executes the bootstrap file(s)
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Bootstrap file(s) executed
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Executes the bootstrap file(s)
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Bootstrap file(s) executed
+2014-02-13 15:34:25 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution started
+2014-02-13 15:34:25 [com.wakanda-software] INFO - "CustomWidget" solution has been successfully opened for running (duration: 404 ms)
+2014-02-13 15:34:25 [com.wakanda-software.supervisor] INFO - solution opened
+2014-02-13 15:41:36 [com.wakanda-software.supervisor] INFO - solution closed
+2014-02-13 15:41:36 [com.wakanda-software] INFO - Opens the solution "Mactintosh HD:Users:xliu:Documents:Wakanda:CustomWidget:CustomWidget Solution:CustomWidget.waSolution" for running
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget] INFO - Users and groups directory opened
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Datastore opened
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project opened
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project opened
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution opened
+2014-02-13 15:41:36 [com.wakanda-software] INFO - Starts "CustomWidget" solution
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - mode :  release
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - added package definition to storage
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - <buildInit()
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":["<buildInit()"]}
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - HTTP Server started
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project started
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - mode :  release
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - added package definition to storage
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - <buildInit()
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":["<buildInit()"]}
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - HTTP Server started
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project started
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Executes the bootstrap file(s)
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Bootstrap file(s) executed
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Executes the bootstrap file(s)
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Bootstrap file(s) executed
+2014-02-13 15:41:36 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution started
+2014-02-13 15:41:36 [com.wakanda-software] INFO - "CustomWidget" solution has been successfully opened for running (duration: 395 ms)
+2014-02-13 15:41:36 [com.wakanda-software.supervisor] INFO - solution opened
+2014-02-13 16:00:45 [com.wakanda-software] INFO - Stops "CustomWidget" solution
+2014-02-13 16:00:46 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project stopped
+2014-02-13 16:00:47 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project stopped
+2014-02-13 16:00:47 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution stopped
+2014-02-13 16:00:47 [com.wakanda-software] INFO - Closes "CustomWidget" solution
+2014-02-13 16:00:48 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project closed
+2014-02-13 16:00:48 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project closed
+2014-02-13 16:00:48 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution closed
+2014-02-13 16:01:16 [com.wakanda-software.supervisor] INFO - solution closed
+2014-02-13 16:01:16 [com.wakanda-software] INFO - Opens the solution "Mactintosh HD:Users:xliu:Documents:Wakanda:CustomWidget:CustomWidget Solution:CustomWidget.waSolution" for running
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget] INFO - Users and groups directory opened
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Datastore opened
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project opened
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project opened
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution opened
+2014-02-13 16:01:16 [com.wakanda-software] INFO - Starts "CustomWidget" solution
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - mode :  release
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - added package definition to storage
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - <buildInit()
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":["<buildInit()"]}
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - HTTP Server started
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project started
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - mode :  release
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - added package definition to storage
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.CustomWidget] INFO - <buildInit()
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":["<buildInit()"]}
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.CustomWidget] INFO - HTTP Server started
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project started
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Executes the bootstrap file(s)
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Bootstrap file(s) executed
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Executes the bootstrap file(s)
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Bootstrap file(s) executed
+2014-02-13 16:01:16 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution started
+2014-02-13 16:01:16 [com.wakanda-software] INFO - "CustomWidget" solution has been successfully opened for running (duration: 416 ms)
+2014-02-13 16:01:16 [com.wakanda-software.supervisor] INFO - solution opened
+2014-02-13 18:51:41 [com.wakanda-software] INFO - Stops "CustomWidget" solution
+2014-02-13 18:51:42 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project stopped
+2014-02-13 18:51:43 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project stopped
+2014-02-13 18:51:43 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution stopped
+2014-02-13 18:51:43 [com.wakanda-software] INFO - Closes "CustomWidget" solution
+2014-02-13 18:51:43 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project closed
+2014-02-13 18:51:43 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project closed
+2014-02-13 18:51:44 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution closed
+2014-02-14 10:40:11 [com.wakanda-software.supervisor] INFO - solution closed
+2014-02-14 10:40:11 [com.wakanda-software] INFO - Opens the solution "Mactintosh HD:Users:xliu:Documents:Wakanda:CustomWidget:CustomWidget Solution:CustomWidget.waSolution" for running
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget] INFO - Users and groups directory opened
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Datastore opened
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project opened
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project opened
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution opened
+2014-02-14 10:40:11 [com.wakanda-software] INFO - Starts "CustomWidget" solution
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - mode :  release
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - added package definition to storage
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - <buildInit()
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":["<buildInit()"]}
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - HTTP Server started
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project started
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - mode :  release
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - added package definition to storage
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.CustomWidget] INFO - <buildInit()
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":["<buildInit()"]}
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.CustomWidget] INFO - HTTP Server started
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project started
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Executes the bootstrap file(s)
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Bootstrap file(s) executed
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Executes the bootstrap file(s)
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Bootstrap file(s) executed
+2014-02-14 10:40:11 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution started
+2014-02-14 10:40:11 [com.wakanda-software] INFO - "CustomWidget" solution has been successfully opened for running (duration: 416 ms)
+2014-02-14 10:40:11 [com.wakanda-software.supervisor] INFO - solution opened
+2014-02-14 11:05:52 [com.wakanda-software] INFO - Stops "CustomWidget" solution
+2014-02-14 11:05:53 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project stopped
+2014-02-14 11:05:54 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project stopped
+2014-02-14 11:05:54 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution stopped
+2014-02-14 11:05:54 [com.wakanda-software] INFO - Closes "CustomWidget" solution
+2014-02-14 11:05:54 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project closed
+2014-02-14 11:05:54 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project closed
+2014-02-14 11:05:55 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution closed
+2014-02-14 12:33:15 [com.wakanda-software.supervisor] INFO - solution closed
+2014-02-14 12:33:15 [com.wakanda-software] INFO - Opens the solution "Mactintosh HD:Users:xliu:Documents:Wakanda:CustomWidget:CustomWidget Solution:CustomWidget.waSolution" for running
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget] INFO - Users and groups directory opened
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Datastore opened
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project opened
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project opened
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution opened
+2014-02-14 12:33:15 [com.wakanda-software] INFO - Starts "CustomWidget" solution
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - mode :  release
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - added package definition to storage
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - <buildInit()
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":["<buildInit()"]}
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - HTTP Server started
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project started
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - mode :  release
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - added package definition to storage
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.CustomWidget] INFO - <buildInit()
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":["<buildInit()"]}
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.CustomWidget] INFO - HTTP Server started
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project started
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Executes the bootstrap file(s)
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Bootstrap file(s) executed
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Executes the bootstrap file(s)
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Bootstrap file(s) executed
+2014-02-14 12:33:15 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution started
+2014-02-14 12:33:15 [com.wakanda-software] INFO - "CustomWidget" solution has been successfully opened for running (duration: 400 ms)
+2014-02-14 12:33:15 [com.wakanda-software.supervisor] INFO - solution opened
+2014-02-14 17:03:38 [com.wakanda-software] INFO - Stops "CustomWidget" solution
+2014-02-14 17:03:40 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project stopped
+2014-02-14 17:03:41 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project stopped
+2014-02-14 17:03:41 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution stopped
+2014-02-14 17:03:41 [com.wakanda-software] INFO - Closes "CustomWidget" solution
+2014-02-14 17:03:41 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project closed
+2014-02-14 17:03:41 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project closed
+2014-02-14 17:03:41 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution closed
+2014-02-18 14:24:00 [com.wakanda-software.supervisor] INFO - solution closed
+2014-02-18 14:24:00 [com.wakanda-software] INFO - Opens the solution "Mactintosh HD:Users:xliu:Documents:Wakanda:CustomWidget:CustomWidget Solution:CustomWidget.waSolution" for running
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget] INFO - Users and groups directory opened
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Datastore opened
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project opened
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project opened
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution opened
+2014-02-18 14:24:00 [com.wakanda-software] INFO - Starts "CustomWidget" solution
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - mode :  release
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - added package definition to storage
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - <buildInit()
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":["<buildInit()"]}
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - HTTP Server started
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project started
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - mode :  release
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - added package definition to storage
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.CustomWidget] INFO - <buildInit()
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":["<buildInit()"]}
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.CustomWidget] INFO - HTTP Server started
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project started
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Executes the bootstrap file(s)
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Bootstrap file(s) executed
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Executes the bootstrap file(s)
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Bootstrap file(s) executed
+2014-02-18 14:24:00 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution started
+2014-02-18 14:24:00 [com.wakanda-software] INFO - "CustomWidget" solution has been successfully opened for running (duration: 398 ms)
+2014-02-18 14:24:00 [com.wakanda-software.supervisor] INFO - solution opened
+2014-02-19 09:31:50 [com.wakanda-software.xbox] ERROR - [1] Network is down (ENETDOWN)., task #18179
+2014-02-19 09:31:50 [com.wakanda-software.srvr] ERROR - [54] Socket write failed, task #18179
+2014-02-19 10:12:09 [com.wakanda-software.xbox] ERROR - [1] Network is down (ENETDOWN)., task #18179
+2014-02-19 10:12:09 [com.wakanda-software.srvr] ERROR - [54] Socket write failed, task #18179
+2014-02-19 11:49:10 [com.wakanda-software] INFO - Stops "CustomWidget" solution
+2014-02-19 11:49:12 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project stopped
+2014-02-19 11:49:13 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project stopped
+2014-02-19 11:49:13 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution stopped
+2014-02-19 11:49:13 [com.wakanda-software] INFO - Closes "CustomWidget" solution
+2014-02-19 11:49:13 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project closed
+2014-02-19 11:49:13 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project closed
+2014-02-19 11:49:13 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution closed
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget] INFO - Users and groups directory opened
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Datastore opened
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project opened
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project opened
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution opened
+2014-02-19 12:18:36 [com.wakanda-software] INFO - Starts "CustomWidget" solution
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - mode :  release
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - added package definition to storage
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - <buildInit()
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":["<buildInit()"]}
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - HTTP Server started
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project started
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - mode :  release
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - added package definition to storage
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - <buildInit()
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":["<buildInit()"]}
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - HTTP Server started
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project started
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Executes the bootstrap file(s)
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Bootstrap file(s) executed
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Executes the bootstrap file(s)
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Bootstrap file(s) executed
+2014-02-19 12:18:36 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution started
+2014-02-19 12:18:36 [com.wakanda-software] INFO - "CustomWidget" solution has been successfully opened for running (duration: 398 ms)
+2014-02-19 12:18:36 [com.wakanda-software.supervisor] INFO - solution opened
+2014-02-19 14:09:54 [com.wakanda-software] INFO - Stops "CustomWidget" solution
+2014-02-19 14:09:55 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project stopped
+2014-02-19 14:09:56 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project stopped
+2014-02-19 14:09:56 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution stopped
+2014-02-19 14:09:56 [com.wakanda-software] INFO - Closes "CustomWidget" solution
+2014-02-19 14:09:57 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project closed
+2014-02-19 14:09:57 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project closed
+2014-02-19 14:09:57 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution closed
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget] INFO - Users and groups directory opened
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Datastore opened
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project opened
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project opened
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution opened
+2014-02-19 14:50:10 [com.wakanda-software] INFO - Starts "CustomWidget" solution
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - mode :  release
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - added package definition to storage
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - <buildInit()
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - HTTP Server started
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project started
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - mode :  release
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - added package definition to storage
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget.CustomWidget] INFO - <buildInit()
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget.CustomWidget] INFO - HTTP Server started
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project started
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Executes the bootstrap file(s)
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Bootstrap file(s) executed
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Executes the bootstrap file(s)
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Bootstrap file(s) executed
+2014-02-19 14:50:10 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution started
+2014-02-19 14:50:10 [com.wakanda-software] INFO - "CustomWidget" solution has been successfully opened for running (duration: 403 ms)
+2014-02-19 14:50:10 [com.wakanda-software.supervisor] INFO - solution opened
+2014-02-19 16:36:50 [com.wakanda-software] INFO - Stops "CustomWidget" solution
+2014-02-19 16:36:51 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project stopped
+2014-02-19 16:36:52 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project stopped
+2014-02-19 16:36:52 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution stopped
+2014-02-19 16:36:52 [com.wakanda-software] INFO - Closes "CustomWidget" solution
+2014-02-19 16:36:53 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project closed
+2014-02-19 16:36:53 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project closed
+2014-02-19 16:36:53 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution closed
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget] INFO - Users and groups directory opened
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Datastore opened
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project opened
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project opened
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution opened
+2014-02-19 16:37:14 [com.wakanda-software] INFO - Starts "CustomWidget" solution
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - mode :  release
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - added package definition to storage
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - <buildInit()
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":["<buildInit()"]}
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - HTTP Server started
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project started
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - mode :  release
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - added package definition to storage
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.CustomWidget] INFO - <buildInit()
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":["<buildInit()"]}
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.CustomWidget] INFO - HTTP Server started
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project started
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Executes the bootstrap file(s)
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Bootstrap file(s) executed
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Executes the bootstrap file(s)
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Bootstrap file(s) executed
+2014-02-19 16:37:14 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution started
+2014-02-19 16:37:14 [com.wakanda-software] INFO - "CustomWidget" solution has been successfully opened for running (duration: 391 ms)
+2014-02-19 16:37:14 [com.wakanda-software.supervisor] INFO - solution opened
+2014-02-19 17:32:37 [com.wakanda-software] INFO - Stops "CustomWidget" solution
+2014-02-19 17:32:38 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project stopped
+2014-02-19 17:32:39 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project stopped
+2014-02-19 17:32:39 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution stopped
+2014-02-19 17:32:39 [com.wakanda-software] INFO - Closes "CustomWidget" solution
+2014-02-19 17:32:40 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project closed
+2014-02-19 17:32:40 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project closed
+2014-02-19 17:32:40 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution closed
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget] INFO - Users and groups directory opened
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Datastore opened
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project opened
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project opened
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution opened
+2014-02-20 15:25:30 [com.wakanda-software] INFO - Starts "CustomWidget" solution
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - mode :  release
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - added package definition to storage
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - <buildInit()
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":["<buildInit()"]}
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - HTTP Server started
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project started
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - mode :  release
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - added package definition to storage
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.CustomWidget] INFO - <buildInit()
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":["<buildInit()"]}
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.CustomWidget] INFO - HTTP Server started
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project started
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Executes the bootstrap file(s)
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Bootstrap file(s) executed
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Executes the bootstrap file(s)
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Bootstrap file(s) executed
+2014-02-20 15:25:30 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution started
+2014-02-20 15:25:30 [com.wakanda-software] INFO - "CustomWidget" solution has been successfully opened for running (duration: 370 ms)
+2014-02-20 15:25:30 [com.wakanda-software.supervisor] INFO - solution opened
+2014-02-20 15:42:08 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Datastore model reloaded
+2014-02-20 18:29:54 [com.wakanda-software] INFO - Stops "CustomWidget" solution
+2014-02-20 18:29:55 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project stopped
+2014-02-20 18:29:57 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project stopped
+2014-02-20 18:29:57 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution stopped
+2014-02-20 18:29:57 [com.wakanda-software] INFO - Closes "CustomWidget" solution
+2014-02-20 18:29:57 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project closed
+2014-02-20 18:29:57 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project closed
+2014-02-20 18:29:57 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution closed
+2014-02-21 11:55:02 [com.wakanda-software.supervisor] INFO - solution closed
+2014-02-21 11:55:02 [com.wakanda-software] INFO - Opens the solution "Mactintosh HD:Users:xliu:Documents:Wakanda:CustomWidget:CustomWidget Solution:CustomWidget.waSolution" for running
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget] INFO - Users and groups directory opened
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Datastore opened
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project opened
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project opened
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution opened
+2014-02-21 11:55:02 [com.wakanda-software] INFO - Starts "CustomWidget" solution
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - mode :  release
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - added package definition to storage
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - <buildInit()
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":["<buildInit()"]}
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - HTTP Server started
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project started
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - mode :  release
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - added package definition to storage
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.CustomWidget] INFO - <buildInit()
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":["<buildInit()"]}
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.CustomWidget] INFO - HTTP Server started
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project started
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Executes the bootstrap file(s)
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Bootstrap file(s) executed
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Executes the bootstrap file(s)
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Bootstrap file(s) executed
+2014-02-21 11:55:02 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution started
+2014-02-21 11:55:02 [com.wakanda-software] INFO - "CustomWidget" solution has been successfully opened for running (duration: 372 ms)
+2014-02-21 11:55:02 [com.wakanda-software.supervisor] INFO - solution opened
+2014-02-21 14:30:36 [com.wakanda-software.xbox] ERROR - [1] Network is down (ENETDOWN)., task #18179
+2014-02-21 14:30:36 [com.wakanda-software.srvr] ERROR - [54] Socket write failed, task #18179
+2014-02-21 15:54:46 [com.wakanda-software.CustomWidget.ServerAdmin] INFO -  created 
+2014-02-21 15:54:46 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - set the debugger
+2014-02-21 18:14:52 [com.wakanda-software] INFO - Stops "CustomWidget" solution
+2014-02-21 18:14:54 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project stopped
+2014-02-21 18:14:55 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project stopped
+2014-02-21 18:14:55 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution stopped
+2014-02-21 18:14:55 [com.wakanda-software] INFO - Closes "CustomWidget" solution
+2014-02-21 18:14:55 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project closed
+2014-02-21 18:14:55 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project closed
+2014-02-21 18:14:55 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution closed
+2014-02-24 15:54:51 [com.wakanda-software.CustomWidget] INFO - Users and groups directory opened
+2014-02-24 15:54:51 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Datastore opened
+2014-02-24 15:54:51 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project opened
+2014-02-24 15:54:51 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project opened
+2014-02-24 15:54:51 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution opened
+2014-02-24 15:54:51 [com.wakanda-software] INFO - Starts "CustomWidget" solution
+2014-02-24 15:54:51 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - mode :  release
+2014-02-24 15:54:51 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-24 15:54:51 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-24 15:54:51 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-24 15:54:51 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - >buildInit() - added package definition to storage
+2014-02-24 15:54:51 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-24 15:54:51 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - <buildInit()
+2014-02-24 15:54:51 [com.wakanda-software.CustomWidget.ServerAdmin.console] INFO - {"data":["<buildInit()"]}
+2014-02-24 15:54:52 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - HTTP Server started
+2014-02-24 15:54:52 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - "ServerAdmin" project started
+2014-02-24 15:54:52 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - mode :  release
+2014-02-24 15:54:52 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - mode : ","release"]}
+2014-02-24 15:54:52 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - minified core files detected - try to add package definition to storage
+2014-02-24 15:54:52 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - minified core files detected - try to add package definition to storage"]}
+2014-02-24 15:54:52 [com.wakanda-software.CustomWidget.CustomWidget] INFO - >buildInit() - added package definition to storage
+2014-02-24 15:54:52 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":[">buildInit() - added package definition to storage"]}
+2014-02-24 15:54:52 [com.wakanda-software.CustomWidget.CustomWidget] INFO - <buildInit()
+2014-02-24 15:54:52 [com.wakanda-software.CustomWidget.CustomWidget.console] INFO - {"data":["<buildInit()"]}
+2014-02-24 15:54:52 [com.wakanda-software.CustomWidget.CustomWidget] INFO - HTTP Server started
+2014-02-24 15:54:52 [com.wakanda-software.CustomWidget.CustomWidget] INFO - "CustomWidget" project started
+2014-02-24 15:54:52 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Executes the bootstrap file(s)
+2014-02-24 15:54:52 [com.wakanda-software.CustomWidget.ServerAdmin] INFO - Bootstrap file(s) executed
+2014-02-24 15:54:52 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Executes the bootstrap file(s)
+2014-02-24 15:54:52 [com.wakanda-software.CustomWidget.CustomWidget] INFO - Bootstrap file(s) executed
+2014-02-24 15:54:52 [com.wakanda-software.CustomWidget] INFO - "CustomWidget" solution started
+2014-02-24 15:54:52 [com.wakanda-software] INFO - "CustomWidget" solution has been successfully opened for running (duration: 358 ms)
+2014-02-24 15:54:52 [com.wakanda-software.supervisor] INFO - solution opened

@@ -1,0 +1,1 @@
+﻿[{"dataTableNum":1,"tableName":"Chart","fields":[{"fieldName":"ID","posInRecord":1},{"fieldName":"xValue","posInRecord":2},{"fieldName":"yValue","posInRecord":3}]},{"dataTableNum":2,"tableName":"Pie_Chart","fields":[{"fieldName":"ID","posInRecord":1},{"fieldName":"CategoryName","posInRecord":2},{"fieldName":"Value","posInRecord":3}]}]
