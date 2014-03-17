@@ -9,6 +9,7 @@
 *.waLog
 */Logs
 studio_log*
+Example Solution/CustomWidget Solution/Logs/CustomWidget_log_1.txt
 
 # Wakanda code analyses 
 *.waSym

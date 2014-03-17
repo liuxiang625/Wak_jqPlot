@@ -1,4 +1,5 @@
 function buildPlot(widget) {
+	debugger;
     var options = {};
     options.title = {
         text: widget.title() || "",
@@ -26,6 +27,7 @@ WAF.define('Wak_jqPlot', ['waf-core/widget'], function(widget) {
             }
             //Temporary solution to add function to Wak_jqplot API
             this.rePlot = function(options) {
+            	debugger;
                 this.jqPlot.replot(options);
             }
             this.destroy = function() {
@@ -47,6 +49,7 @@ WAF.define('Wak_jqPlot', ['waf-core/widget'], function(widget) {
             name: 'ValueY'
         }],
         onChange: function(newValue) {
+        	            debugger;
             this.data = [];
             if (newValue && newValue.length > 0 && !newValue.getClassTitle()) {
                 for (var datasourceIndex = 0; datasourceIndex < newValue.length; datasourceIndex++) {
@@ -68,10 +71,15 @@ WAF.define('Wak_jqPlot', ['waf-core/widget'], function(widget) {
                                 for (var datasourceIndex = 0; datasourceIndex < dataArray.length; datasourceIndex++) {
                                     var xValue = dataArray[datasourceIndex][xValueDataSourceName];
                                     var yValue = dataArray[datasourceIndex][yValueDataSourceName];
-                                    dataObject[xValue]? (dataObject[xValue] += parseFloat(yValue)):(dataObject[xValue] =  parseFloat(yValue));
-                                    targetWidget.data.push([isNumber(xValue) ? parseFloat(xValue) : xValue, isNumber(yValue) ? parseFloat(yValue) : yValue]);
+                                    if (xValue in dataObject) 
+                                    	dataObject[xValue] += parseFloat(yValue)
+                                    else {
+                                  		dataObject[xValue] =  parseFloat(yValue);
+                                 		targetWidget.data.push([isNumber(xValue) ? parseFloat(xValue) : xValue, isNumber(yValue) ? parseFloat(yValue) : yValue]);
+                                	}
                                 }
                                 $('#' + targetWidget.id).empty()
+                                debugger;
                                 buildPlot(targetWidget);
                             }
                         });
@@ -115,11 +123,21 @@ WAF.define('Wak_jqPlot', ['waf-core/widget'], function(widget) {
             Wak_jqPlot.renderer = this.chartType();
         }
     });
-    //
-    //    /* Map the custom event above to the DOM click event */
-    //    Wak_jqPlot.mapDomEvents({
-    //        'click': 'action'
-    //    });
+    
+    
+//     Wak_jqPlot.addProperty('SeriesColors', {
+//        bindable: false,
+//        attributes: [{
+//            name: 'color'
+//        }],
+//        defaultValue: [ "#4bb2c5", "#c5b47f", "#EAA228", "#579575", "#839557", "#958c12",
+//        "#953579", "#4b5de4", "#d8b83f", "#ff5800", "#0085cc"]
+//   	 });
+    
+//        /* Map the custom event above to the DOM click event */
+//        Wak_jqPlot.mapDomEvents({
+//            'click': 'action'
+//        });
     return Wak_jqPlot;
 
 });
