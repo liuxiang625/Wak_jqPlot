@@ -24,6 +24,10 @@
         {"id": "Wak_jqPlot/jqPlot_Source/jquery.jqplot.min.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
         {"id": "Wak_jqPlot/jqPlot_Source/jquery.jqplot.min.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
         {"id": "Wak_jqPlot/jqPlot_Source/plugin/jqplot.pieRenderer.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Wak_jqPlot/jqPlot_Source/plugin/jqplot.categoryAxisRenderer.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Wak_jqPlot/jqPlot_Source/plugin/jqplot.canvasAxisLabelRenderer.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+		{"id": "Wak_jqPlot/jqPlot_Source/plugin/jqplot.CanvasAxisTickRenderer.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+		{"id": "Wak_jqPlot/jqPlot_Source/plugin/jqplot.canvasTextRenderer.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
         {"id": "Wak_jqPlot/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
     ]
 }

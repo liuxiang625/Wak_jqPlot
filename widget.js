@@ -122,6 +122,19 @@ WAF.define('Wak_jqPlot', ['waf-core/widget'], function(widget) {
 		        show: true,
 		        location: 'e'
 		    };
+		    
+		    if (widget.chartType() == 'LinearAxisRenderer') 
+		    options.axes = {
+		        xaxis: {
+		          renderer: $.jqplot.CategoryAxisRenderer,
+		          labelRenderer: $.jqplot.CanvasAxisLabelRenderer,
+		          tickRenderer: $.jqplot.CanvasAxisTickRenderer
+		           
+		        },
+		        yaxis: {
+		          //labelRenderer: $.jqplot.CanvasAxisLabelRenderer
+		        }
+		      };
 		    widget.jqPlot = $.jqplot(widget.id, [widget.data], options);
 		},
 		render: function() {
