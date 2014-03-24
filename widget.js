@@ -1,50 +1,34 @@
-//function buildPlot(widget) {
-//	debugger;
-//    var options = {};
-//    options.title = {
-//        text: widget.title() || "",
-//        fontSize: widget.titleFontSize() || 16
-//    };
-//    if (widget.chartType() == 'PieRenderer') options.seriesDefaults = {
-//        renderer: jQuery.jqplot[widget.chartType()],
-//        rendererOptions: {
-//            showDataLabels: true
-//        }
-//    };
-//    options.legend = {
-//        show: true,
-//        location: 'se'
-//    };
-//    widget.jqPlot = $.jqplot(widget.id, [widget.data], options);
-//}
 
 WAF.define('Wak_jqPlot', ['waf-core/widget'], function(widget) {
 
     var Wak_jqPlot = widget.create('Wak_jqPlot', {
     	 
+ //Widget Properties List
     	chartType: widget.property({
             type: 'enum',
             values: {
-            	LinearAxisRenderer: 'line',
-                PieRenderer: 'pie'
+            	LinearAxisRenderer: 'line chart',
+                PieRenderer: 'pie chart',
+                BarRenderer: 'bar chart'
             },
             defaultValue: 'line',
             bindable: false
         }),
         
-        items: widget.property({
+        series: widget.property({
             type: 'datasource',
             attributes: [{
-                name: 'value'
+                name: 'xAxeValue'
             }, {
-                name: 'label'
+                name: 'yAxeValue'
             }]
         }),
         
         init: function() {
-            if (this.data && this.data.length > 0) {
+            if (this.data && this.data.length > 0) 
                 this.buildPlot(this);
-            }
+            else
+            	this.render();
             //Temporary solution to add function to Wak_jqplot API
             this.rePlot = function (options) {
                 this.jqPlot.replot(options);
@@ -57,51 +41,22 @@ WAF.define('Wak_jqPlot', ['waf-core/widget'], function(widget) {
                 this.render();
             });
             
-            this.items.onCollectionChange(function(elements) {
+            this.series.onCollectionChange(function(elements) {
             	this.data = [];
             	if (!elements.length) return;
-//	            if (!elements.hasOwnProperty('getClassTitle')) {
-	                for (var datasourceIndex = 0; datasourceIndex < elements.length; datasourceIndex++) {
-	                	var value = elements[datasourceIndex]['value'];
-	                	var label = elements[datasourceIndex]['label'];
-	                    this.data.push([isNumber(value) ? parseFloat(value) : value, isNumber(label) ? parseFloat(label) : label]);
-	                }
-	            //}
-//            else if (newValue.getClassTitle() && newValue.length == 0) {
-//                newValue.addListener("onCurrentElementChange", function(event) {
-//                    if (event.dataSource.getCurrentElement() !== null) {
-//                        var targetWidget = event.userData.targetWidget;
-//                        targetWidget.data = [];
-//                        var xValueDataSourceName = event.userData.xValueDataSource;
-//                        var yValueDataSourceName = event.userData.yValueDataSource;
-//                        event.dataSource.toArray(xValueDataSourceName + ", " + yValueDataSourceName, {
-//                            onSuccess: function(event) {
-//                                var dataArray = event.result;
-//                                var dataObject = {};
-//                                for (var datasourceIndex = 0; datasourceIndex < dataArray.length; datasourceIndex++) {
-//                                    var xValue = dataArray[datasourceIndex][xValueDataSourceName];
-//                                    var yValue = dataArray[datasourceIndex][yValueDataSourceName];
-//                                    if (xValue in dataObject) 
-//                                    	dataObject[xValue] += parseFloat(yValue)
-//                                    else {
-//                                  		dataObject[xValue] =  parseFloat(yValue);
-//                                 		targetWidget.data.push([isNumber(xValue) ? parseFloat(xValue) : xValue, isNumber(yValue) ? parseFloat(yValue) : yValue]);
-//                                	}
-//                                }
-//                                $('#' + targetWidget.id).empty()
-//                                debugger;
-//                                buildPlot(targetWidget);
-//                            }
-//                        });
-//                    }
-//                }, {}, // To pass userData, config object is required even being empty
-//                { //userData object contains widget and datasources
-//                    'targetWidget': this,
-//                    'xValueDataSource': this.value.attributeFor("ValueX"),
-//                    'yValueDataSource': this.value.attributeFor("ValueY")
-//                });
-//                this.data = [];
-//            }
+				var dataObject = {};
+                for (var datasourceIndex = 0; datasourceIndex < elements.length; datasourceIndex++) {
+                	var xAxeValue = elements[datasourceIndex]['xAxeValue'];
+                	var yAxeValue = elements[datasourceIndex]['yAxeValue'];
+                	(xAxeValue in dataObject)?dataObject[xAxeValue] += yAxeValue: dataObject[xAxeValue] = yAxeValue;// Detect if the lable is duplicated.
+                    //this.data.push([isNumber(xAxeValue) ? parseFloat(xAxeValue) : xAxeValue, isNumber(yAxeValue) ? parseFloat(yAxeValue) : yAxeValue]);
+                }
+	            
+	            for (key in dataObject) {
+	            	
+	         		this.data.push([key,dataObject[key]]); 	
+	        	}
+				console.log(elements);
 			 this.buildPlot(this);
             });
         },
@@ -112,17 +67,30 @@ WAF.define('Wak_jqPlot', ['waf-core/widget'], function(widget) {
 		        //text: widget.title() || "",
 		        //fontSize: widget.titleFontSize() || 16
 		    };
-		    if (widget.chartType() == 'PieRenderer') options.seriesDefaults = {
+		    if (widget.chartType() == 'PieRenderer') {
+		    	
+		    	options.seriesDefaults = {
 		        renderer: jQuery.jqplot[widget.chartType()],
 		        rendererOptions: {
 		            showDataLabels: true
 		        }
-		    };
-		    options.legend = {
-		        show: true,
-		        location: 'e'
-		    };
-		    
+			    };
+			    options.legend = {
+			        show: true,
+			        location: 'e'
+			    };
+			}
+			if (this.chartType() == 'BarRenderer') {
+	      		options.series= [{renderer:$.jqplot.BarRenderer}]
+	      		options.axes = {
+			        xaxis: {
+			          renderer: $.jqplot.CategoryAxisRenderer,
+			          labelRenderer: $.jqplot.CanvasAxisLabelRenderer,
+			          tickRenderer: $.jqplot.CanvasAxisTickRenderer
+			           
+			     	}
+			     };
+	    	}	
 		    if (widget.chartType() == 'LinearAxisRenderer') 
 		    options.axes = {
 		        xaxis: {
@@ -130,9 +98,6 @@ WAF.define('Wak_jqPlot', ['waf-core/widget'], function(widget) {
 		          labelRenderer: $.jqplot.CanvasAxisLabelRenderer,
 		          tickRenderer: $.jqplot.CanvasAxisTickRenderer
 		           
-		        },
-		        yaxis: {
-		          //labelRenderer: $.jqplot.CanvasAxisLabelRenderer
 		        }
 		      };
 		    widget.jqPlot = $.jqplot(widget.id, [widget.data], options);
@@ -173,62 +138,6 @@ WAF.define('Wak_jqPlot', ['waf-core/widget'], function(widget) {
         ]);
 		}
     });
-
-    //Add value property of Datasource
-//    Wak_jqPlot.addProperty('value', {
-//        type: "datasource",
-//        attributes: [{
-//            name: 'ValueX'
-//        }, {
-//            name: 'ValueY'
-//        }],
-//        onChange: function(newValue) {
-//        	            debugger;
-//            this.data = [];
-//            if (newValue && newValue.length > 0 && !newValue.getClassTitle()) {
-//                for (var datasourceIndex = 0; datasourceIndex < newValue.length; datasourceIndex++) {
-//                    this.data.push([isNumber(newValue['ValueX']) ? parseFloat(newValue['ValueX']) : newValue['ValueX'], isNumber(newValue['ValueY']) ? parseFloat(newValue['ValueY']) : newValue['ValueY']]);
-//                    newValue.selectNext();
-//                }
-//            }
-//            else if (newValue.getClassTitle() && newValue.length == 0) {
-//                newValue.addListener("onCurrentElementChange", function(event) {
-//                    if (event.dataSource.getCurrentElement() !== null) {
-//                        var targetWidget = event.userData.targetWidget;
-//                        targetWidget.data = [];
-//                        var xValueDataSourceName = event.userData.xValueDataSource;
-//                        var yValueDataSourceName = event.userData.yValueDataSource;
-//                        event.dataSource.toArray(xValueDataSourceName + ", " + yValueDataSourceName, {
-//                            onSuccess: function(event) {
-//                                var dataArray = event.result;
-//                                var dataObject = {};
-//                                for (var datasourceIndex = 0; datasourceIndex < dataArray.length; datasourceIndex++) {
-//                                    var xValue = dataArray[datasourceIndex][xValueDataSourceName];
-//                                    var yValue = dataArray[datasourceIndex][yValueDataSourceName];
-//                                    if (xValue in dataObject) 
-//                                    	dataObject[xValue] += parseFloat(yValue)
-//                                    else {
-//                                  		dataObject[xValue] =  parseFloat(yValue);
-//                                 		targetWidget.data.push([isNumber(xValue) ? parseFloat(xValue) : xValue, isNumber(yValue) ? parseFloat(yValue) : yValue]);
-//                                	}
-//                                }
-//                                $('#' + targetWidget.id).empty()
-//                                debugger;
-//                                buildPlot(targetWidget);
-//                            }
-//                        });
-//                    }
-//                }, {}, // To pass userData, config object is required even being empty
-//                { //userData object contains widget and datasources
-//                    'targetWidget': this,
-//                    'xValueDataSource': this.value.attributeFor("ValueX"),
-//                    'yValueDataSource': this.value.attributeFor("ValueY")
-//                });
-//                this.data = [];
-//            }
-//        }
-//    });
-
 //    //add title property
 //    Wak_jqPlot.addProperty('title', {
 //        bindable: false,
