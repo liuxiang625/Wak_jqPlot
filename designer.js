@@ -1,5 +1,5 @@
 (function(Wak_jqPlot) {
-
+			//Wak_jqPlot.series2.hide();
     //    /* Default width and height of your widget */
     //    Wak_jqPlot.setWidth('200');
     //    Wak_jqPlot.setHeight('20');
@@ -26,42 +26,60 @@
     //        'label': true,
     //        'disabled': ['border-radius']
     //    });
+    Wak_jqPlot.doAfter('init', function() {
+    	this.titleFontSize.hide();
+		this.title.onChange(function() {
+			if(this.title()) {
+				this.titleFontSize.show();
+			} else {
+				this.titleFontSize.hide();
+			}
+		});
+		this.chartType.onChange(function() {
+			if(this.chartType() == 'PieRenderer') {
+				this.dataSeries.hide();
+			} else { 
+				this.dataSeries.show();
+			}
+		});
+	});
+    
     /* Override widget's initialization */
-    Wak_jqPlot.prototype.init = function() {
-//        this.node.innerHTML = "";
-//        if (this.chartType() == 'PieRenderer') {
-//            var data = [
-//                ['Heavy Industry', 12],
-//                ['Retail', 9],
-//                ['Light Industry', 14],
-//                ['Out of home', 16],
-//                ['Commuting', 7],
-//                ['Orientation', 9]
-//            ];
-//            var plot1 = $.jqplot(this.id, [data], {
-//                seriesDefaults: {
-//                    renderer: $.jqplot.PieRenderer,
-//                    rendererOptions: {
-//                        showDataLabels: true
-//                    }
-//                },
-//                legend: {
-//                    show:true, 
-//                    location: 'e'
-//                }
-//            })
-//        }
-//        else $.jqplot(this.id, [
-//            [
-//                [1, 2],
-//                [3, 5.12],
-//                [5, 13.1],
-//                [7, 33.6],
-//                [9, 85.9],
-//                [11, 219.9]
-//            ]
-//        ]);
-    }
+//    Wak_jqPlot.prototype.init = function() {
+////        this.node.innerHTML = "";
+////        if (this.chartType() == 'PieRenderer') {
+////            var data = [
+////                ['Heavy Industry', 12],
+////                ['Retail', 9],
+////                ['Light Industry', 14],
+////                ['Out of home', 16],
+////                ['Commuting', 7],
+////                ['Orientation', 9]
+////            ];
+////            var plot1 = $.jqplot(this.id, [data], {
+////                seriesDefaults: {
+////                    renderer: $.jqplot.PieRenderer,
+////                    rendererOptions: {
+////                        showDataLabels: true
+////                    }
+////                },
+////                legend: {
+////                    show:true, 
+////                    location: 'e'
+////                }
+////            })
+////        }
+////        else $.jqplot(this.id, [
+////            [
+////                [1, 2],
+////                [3, 5.12],
+////                [5, 13.1],
+////                [7, 33.6],
+////                [9, 85.9],
+////                [11, 219.9]
+////            ]
+////        ]);
+//    }
 
 });
 
